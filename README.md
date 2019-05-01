@@ -1,5 +1,5 @@
 # mongo-rest
-A database application using Dagger dependency injection and MongoDB, confomring to REST API standards, used to store blog posts.
+A database application using Dagger dependency injection and MongoDB, conforming to REST API standards, used to store blog posts.
 ## Request Types
 GET - Search for a blog post by its MongoDB _id or by post title.
 
