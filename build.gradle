@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'ak'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.mongodb:mongodb-driver-sync:3.10.1'
+    implementation 'com.squareup.dagger:dagger:1.2.5'
+    implementation 'com.squareup.dagger:dagger-compiler:1.2.5'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
